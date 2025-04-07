@@ -6,7 +6,11 @@ Uma aplicação web interativa de **lista de tarefas (To-Do List)**, desenvolvid
 
 ## 📸 Preview do Projeto
 
-![Preview do Projeto](./assets/screenshot.png)
+![Preview do Projeto](./assets/preview.png)
+
+## 🔗 Acesse o Projeto Online
+
+[![Ver no GitHub Pages](https://img.shields.io/badge/🔗%20Ver%20Projeto%20Online-222?style=for-the-badge&logo=github&logoColor=white)](https://vanvilas.github.io/to-do-list/)
 
 ---
 
@@ -37,6 +41,8 @@ npx jest
 npx cypress open
 ```
 
+---
+
 ## 🛠 Tecnologias Utilizadas
 
 - HTML5
@@ -46,6 +52,8 @@ npx cypress open
 - Cypress 
 - GitHub Actions (CI/CD)
 - Git e GitHub
+
+---
 
 ## ▶️ Como executar este projeto
 
@@ -71,6 +79,7 @@ npx jest
 ```bash 
 npx cypress open
 ```
+
 ---
 
 ## 🚧 Em Construção
@@ -87,3 +96,5 @@ npx cypress open
 
 [🔗 GitHub](https://github.com/vanvilas)
 [🔗 LinkedIn](linkedin.com/in/vanessa-vilas-boas/)
+
+---
