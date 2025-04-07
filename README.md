@@ -1,4 +1,5 @@
 # 📝 To-Do List
+![GitHub Workflow Status](https://github.com/vanvilas/to-do-list/actions/workflows/tests.yml/badge.svg)
 
 Uma aplicação web interativa de **lista de tarefas (To-Do List)**, desenvolvida com **HTML**, **CSS** e **JavaScript**. Conta com funcionalidades completas, testes automatizados com **Jest** e **Cypress**, e está preparada para integração contínua com **GitHub Actions**.
 
