@@ -96,5 +96,3 @@ npx cypress open
 
 [🔗 GitHub](https://github.com/vanvilas)
 [🔗 LinkedIn](linkedin.com/in/vanessa-vilas-boas/)
-
----
