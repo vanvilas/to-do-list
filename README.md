@@ -1,34 +1,89 @@
 # 📝 To-Do List
 
-Uma aplicação simples de lista de tarefas (To-Do List) feita com **HTML**, **CSS** e **JavaScript**, com testes automatizados usando **Jest** (unitários) e **Cypress** (E2E).
+Uma aplicação web interativa de **lista de tarefas (To-Do List)**, desenvolvida com **HTML**, **CSS** e **JavaScript**. Conta com funcionalidades completas, testes automatizados com **Jest** e **Cypress**, e está preparada para integração contínua com **GitHub Actions**.
 
-## 📸 Preview
+---
 
-![Preview do Projeto](https://via.placeholder.com/800x400.png?text=Insira+um+print+da+aplica%C3%A7%C3%A3o+aqui)
+## 📸 Preview do Projeto
+
+![Preview do Projeto](./assets/screenshot.png)
+
+---
 
 ## 🚀 Funcionalidades
 
-- ✅ Adicionar novas tarefas  
-- ✅ Marcar tarefas como concluídas  
-- ✅ Remover tarefas  
+- ✅ Adicionar e remover tarefas  
+- ✅ Armazenamento local com `localStorage`   
 - ✅ Layout responsivo  
 - ✅ Testes automatizados (Jest e Cypress)  
-- ✅ Pronto para CI/CD com GitHub Actions 
-- ✅ Modo escuro  
-- ✅ Armazenamento local com `localStorage`  
+- ✅ Preparado para integração contínua (CI/CD) 
+- ✅ Alternar entre modo claro e escuro 
+
+---
+
+## 🧪 Testes Automatizados
+
+### ✅ Testes Unitários (Jest)
+- Caminho: `__tests__/todo.test.js`
+- Comando para executar:
+```bash
+npx jest
+```
+
+### ✅ Testes End-to-End (Cypress)
+- Local: `cypress/e2e/toDoList.cy.js`
+- Comando para executar: 
+```bash 
+npx cypress open
+```
 
 ## 🛠 Tecnologias Utilizadas
 
 - HTML5
 - CSS3
 - JavaScript (ES6)
-- Jest (testes unitários)
-- Cypress (testes de ponta a ponta)
+- Jest 
+- Cypress 
 - GitHub Actions (CI/CD)
+- Git e GitHub
 
-## ▶️ Como executar o projeto
+## ▶️ Como executar este projeto
 
-Clone o projeto:
+### 1. Clone o repositório:
 ```bash
 git clone https://github.com/vanvilas/to-do-list.git
 cd to-do-list
+```
+### 2. Abra no navegador
+- Abra o arquivo ```index.html``` diretamente ou 
+- Use a extensão **Live Server** no VS Code
+
+### 3. Instale as dependências
+```bash
+npm install
+```
+### 4. Execute os testes
+- Jest: 
+```bash
+npx jest
+```
+- Cypress:
+```bash 
+npx cypress open
+```
+---
+
+## 🚧 Em Construção
+
+- [ ] Integração contínua com GitHub Actions (CI/CD)
+- [ ] Deploy online com GitHub Pages
+
+---
+
+## 👩‍💻 Desenvolvido por
+
+**Vanessa Vilas Boas**  
+🎓 Estudante de Engenharia de Software | 💼 Focada em QA e Testes Automatizados
+
+[🔗 GitHub](https://github.com/vanvilas)
+[🔗 LinkedIn](linkedin.com/in/vanessa-vilas-boas/)
