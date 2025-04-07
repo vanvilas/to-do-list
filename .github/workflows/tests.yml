@@ -4,21 +4,19 @@ name: CI - Testes Automatizados
 on: [push, pull_request]
 
 jobs:
-  tests:
-    name: Executar testes com Jest
+  test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 🔄 Clonar o repositório
-        uses: actions/checkout@v3
+    - uses: actions/checkout@v3
 
-      - name: 📦 Instalar Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
 
-      - name: 📁 Instalar dependências
-        run: npm install
+    - name: Install dependencies
+      run: npm install
 
-      - name: 🧪 Rodar testes com Jest
-        run: npx jest --coverage
+    - name: Run Jest tests
+      run: npx jest
