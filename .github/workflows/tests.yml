@@ -1,18 +1,24 @@
 # .github/workflows/tests.yml
-name: Run Tests
+name: CI - Testes Automatizados
 
 on: [push, pull_request]
 
 jobs:
-  test:
+  tests:
+    name: Executar testes com Jest
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: 18
+      - name: 🔄 Clonar o repositório
+        uses: actions/checkout@v3
 
-    - run: npm install
-    - run: npx jest
+      - name: 📦 Instalar Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: 📁 Instalar dependências
+        run: npm install
+
+      - name: 🧪 Rodar testes com Jest
+        run: npx jest --coverage
