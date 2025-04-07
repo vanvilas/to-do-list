@@ -10,9 +10,9 @@ window.onload = () => {
         taskList.appendChild(createTask(taskText));
     });
 
-    // modo escurp salvo
+    // modo escuro salvo
     if (localStorage.getItem('darkMode') === 'true') {
-        document.body.classList('dark');
+        document.body.classList.add('dark');
     }
 };
 
@@ -28,7 +28,7 @@ function createTask(taskText) {
     deleteBtn.classList.add('delete-btn');
     deleteBtn.onclick = () => {
         li.remove();
-        savedTasks();
+        saveTasks();
     };
 
     li.appendChild(deleteBtn);

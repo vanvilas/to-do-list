@@ -14,7 +14,7 @@ describe('Função createTask', () => {
 
     test('retorna null para entrada vazia', () => {
         const task = createTask('');
-        expect(task).toBeNull;
+        expect(task).toBeNull();
     });
 
     test('aplica a classe "done" ao clicar', () => {
