@@ -44,6 +44,37 @@ npx cypress open
 
 ---
 
+## 📌 Detalhes dos Testes Automatizados
+
+### ✅ O que foi testado
+
+- Adição de múltiplas tarefas
+- Exclusão de tarefas específicas
+- Marcar tarefas como concluídas
+- Validação de existência no DOM após interações
+- Fluxo completo E2E com simulação real do usuário
+
+### 🔧 Como rodar os testes
+
+Certifique-se de ter as dependências instaladas:
+```bash
+npm install
+```
+Depois, para abrir o Cypress:
+```bash
+npx cypress open
+```
+Ou para rodar em modo headless (útil para CI/CD):
+```bash
+npx cypress run
+```
+
+## 📷 Resultado dos Testes
+
+Abaixo, um exemplo do teste em execução, onde foram adicionadas 3 tarefas, uma foi marcada como concluída e outra removida com sucesso:
+
+![Preview Teste Cypress](./assets/teste-cypress.png)
+
 ## 🛠 Tecnologias Utilizadas
 
 - HTML5
