@@ -4,7 +4,8 @@ name: CI - Testes Automatizados
 on: [push, pull_request]
 
 jobs:
-  test:
+  tests:
+    name: Executar testes com Jest
     runs-on: ubuntu-latest
 
     steps:
