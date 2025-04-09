@@ -3,8 +3,6 @@
 
 Uma aplicação web interativa de **lista de tarefas (To-Do List)**, desenvolvida com **HTML**, **CSS** e **JavaScript**. Conta com funcionalidades completas, testes automatizados com **Jest** e **Cypress**, e está preparada para integração contínua com **GitHub Actions**.
 
----
-
 ## 📸 Preview do Projeto
 
 ![Preview do Projeto](./assets/preview.png)
@@ -12,8 +10,6 @@ Uma aplicação web interativa de **lista de tarefas (To-Do List)**, desenvolvid
 ## 🔗 Acesse o Projeto Online
 
 [![Ver no GitHub Pages](https://img.shields.io/badge/🔗%20Ver%20Projeto%20Online-222?style=for-the-badge&logo=github&logoColor=white)](https://vanvilas.github.io/to-do-list/)
-
----
 
 ## 🚀 Funcionalidades
 
@@ -23,8 +19,6 @@ Uma aplicação web interativa de **lista de tarefas (To-Do List)**, desenvolvid
 - ✅ Testes automatizados (Jest e Cypress)  
 - ✅ Preparado para integração contínua (CI/CD) 
 - ✅ Alternar entre modo claro e escuro 
-
----
 
 ## 🧪 Testes Automatizados
 
@@ -41,8 +35,6 @@ npx jest
 ```bash 
 npx cypress open
 ```
-
----
 
 ## 📌 Detalhes dos Testes Automatizados
 
@@ -85,8 +77,6 @@ Abaixo, um exemplo do teste em execução, onde foram adicionadas 3 tarefas, uma
 - GitHub Actions (CI/CD)
 - Git e GitHub
 
----
-
 ## ▶️ Como executar este projeto
 
 ### 1. Clone o repositório:
@@ -112,14 +102,10 @@ npx jest
 npx cypress open
 ```
 
----
-
 ## 🚧 Em Construção
 
 - [ ] Integração contínua com GitHub Actions (CI/CD)
 - [ ] Deploy online com GitHub Pages
-
----
 
 ## 👩‍💻 Desenvolvido por
 
