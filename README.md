@@ -3,15 +3,21 @@
 
 Uma aplicação web interativa de **lista de tarefas (To-Do List)**, desenvolvida com **HTML**, **CSS** e **JavaScript**. Conta com funcionalidades completas, testes automatizados com **Jest** e **Cypress**, e está preparada para integração contínua com **GitHub Actions**.
 
-🔍 Objetivo: Este projeto foi desenvolvido como exercício prático para consolidar meus estudos em desenvolvimento front-end e testes automatizados com Jest e Cypress.
+🔍 **Objetivo:** Este projeto foi desenvolvido como exercício prático para consolidar meus estudos em desenvolvimento front-end e testes automatizados com Jest e Cypress.
+
+---
 
 ## 📸 Preview do Projeto
 
 ![Preview do Projeto](./assets/preview.png)
 
+---
+
 ## 🔗 Acesse o Projeto Online
 
 [![Ver no GitHub Pages](https://img.shields.io/badge/🔗%20Ver%20Projeto%20Online-222?style=for-the-badge&logo=github&logoColor=white)](https://vanvilas.github.io/to-do-list/)
+
+---
 
 ## 🚀 Funcionalidades
 
@@ -21,6 +27,8 @@ Uma aplicação web interativa de **lista de tarefas (To-Do List)**, desenvolvid
 - ✅ Testes automatizados (Jest e Cypress)  
 - ✅ Preparado para integração contínua (CI/CD) 
 - ✅ Alternar entre modo claro e escuro 
+
+---
 
 ## 🧪 Testes Automatizados
 
@@ -38,9 +46,11 @@ npx jest
 npx cypress open
 ```
 
+---
+
 ## 📌 Cobertura dos Testes Automatizados
 
-### ✅ O que foi testado
+### ✅ O que é testado
 
 - Adição de múltiplas tarefas
 - Exclusão de tarefas específicas
@@ -48,13 +58,15 @@ npx cypress open
 - Validação de existência no DOM após interações
 - Fluxo completo E2E com simulação real do usuário
 
-### 🔧 Como rodar os testes
+---
+
+### 🔧 Executando os testes E2E com Cypress
 
 Certifique-se de ter as dependências instaladas:
 ```bash
 npm install
 ```
-Depois, para abrir o Cypress:
+Depois, para abrir o Cypress no modo visual:
 ```bash
 npx cypress open
 ```
@@ -63,11 +75,15 @@ Ou para rodar em modo headless (útil para CI/CD):
 npx cypress run
 ```
 
+---
+
 ## 📷 Resultado dos Testes
 
 Abaixo, um exemplo do teste em execução, onde foram adicionadas 3 tarefas, uma foi marcada como concluída e outra removida com sucesso:
 
 ![Preview Teste Cypress](./assets/teste-cypress.png)
+
+---
 
 ## 🛠 Tecnologias Utilizadas
 
@@ -78,6 +94,8 @@ Abaixo, um exemplo do teste em execução, onde foram adicionadas 3 tarefas, uma
 - Cypress 
 - GitHub Actions (CI/CD)
 - Git e GitHub
+
+---
 
 ## ▶️ Como executar este projeto
 
@@ -103,6 +121,8 @@ npx jest
 ```bash 
 npx cypress open
 ```
+
+---
 
 ## 👩‍💻 Desenvolvido por
 
