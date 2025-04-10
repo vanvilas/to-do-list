@@ -3,6 +3,8 @@
 
 Uma aplicação web interativa de **lista de tarefas (To-Do List)**, desenvolvida com **HTML**, **CSS** e **JavaScript**. Conta com funcionalidades completas, testes automatizados com **Jest** e **Cypress**, e está preparada para integração contínua com **GitHub Actions**.
 
+🔍 Objetivo: Este projeto foi desenvolvido como exercício prático para consolidar meus estudos em desenvolvimento front-end e testes automatizados com Jest e Cypress.
+
 ## 📸 Preview do Projeto
 
 ![Preview do Projeto](./assets/preview.png)
@@ -36,7 +38,7 @@ npx jest
 npx cypress open
 ```
 
-## 📌 Detalhes dos Testes Automatizados
+## 📌 Cobertura dos Testes Automatizados
 
 ### ✅ O que foi testado
 
@@ -93,19 +95,14 @@ cd to-do-list
 npm install
 ```
 ### 4. Execute os testes
-- Jest: 
+- Testes Unitários
 ```bash
 npx jest
 ```
-- Cypress:
+- Testes E2E
 ```bash 
 npx cypress open
 ```
-
-## 🚧 Em Construção
-
-- [ ] Integração contínua com GitHub Actions (CI/CD)
-- [ ] Deploy online com GitHub Pages
 
 ## 👩‍💻 Desenvolvido por
 
@@ -113,4 +110,4 @@ npx cypress open
 🎓 Estudante de Engenharia de Software | 💼 Focada em QA e Testes Automatizados
 
 [🔗 GitHub](https://github.com/vanvilas)
-[🔗 LinkedIn](linkedin.com/in/vanessa-vilas-boas/)
+[🔗 LinkedIn](https://linkedin.com/in/vanessa-vilas-boas/)
